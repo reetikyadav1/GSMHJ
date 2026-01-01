@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- =========================================================
+         GSM HJ – JOIN COURSE PAGE
+         Purpose: Mobile Software Training Registration
+         Theme: Blue & White
+    ========================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Training Course | GSM HJ</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Join professional mobile software training by GSM HJ. Batch starting 1 January 2026. Flat 50% OFF.">
+    <meta name="keywords" content="mobile software training, GSM course, phone repairing course">
+    <meta name="author" content="GSM HJ">
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- EMAILJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+<header class="navbar">
+    <div class="nav-container">
+        <div class="logo">GSM HJ</div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="tools.html">Tools</a>
+            <a href="course.html">Training</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="nav-whatsapp"
+           href="https://wa.me/918221820078"
+           target="_blank">
+            WhatsApp
+        </a>
+    </div>
+</header>
+
+<!-- =========================================================
+     COURSE HERO
+========================================================= -->
+<section class="section hero">
+    <div class="hero-content">
+
+        <div class="hero-text">
+            <h1>
+                Professional Mobile <br>
+                Software Training
+            </h1>
+
+            <p>
+                Learn mobile software professionally at
+                <strong>PHONE FIX ZONE, Mahendragarh</strong>.
+                Real tools, real experience, practical training.
+            </p>
+
+            <ul style="color:#64748b;font-size:14px;line-height:1.9;">
+                <li>✔ Batch Starting: <strong>1 January 2026</strong></li>
+                <li>✔ Course Fee: <strong>₹1999/-</strong> (50% OFF)</li>
+                <li>✔ Limited Seats Available</li>
+            </ul>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/banner-training.png" alt="Training Banner">
+        </div>
+
+    </div>
+</section>
+
+<!-- =========================================================
+     COURSE DETAILS
+========================================================= -->
+<section class="section reveal" style="background:#f1f5f9;">
+    <h2 class="section-title">What You Will Learn</h2>
+
+    <div class="why-grid">
+        <div class="why-card">
+            <h3>Mobile Flashing</h3>
+            <p>Android flashing, firmware install, error fixing.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>FRP Unlock</h3>
+            <p>Google account lock removal techniques.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>IMEI Repair</h3>
+            <p>IMEI repair basics & software usage.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>Professional Tools</h3>
+            <p>Live demo on TSM, UTA, Pandora, Griffin tools.</p>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+     JOIN COURSE FORM
+========================================================= -->
+<section class="section reveal">
+    <h2 class="section-title">Join Course Now</h2>
+
+    <div style="max-width:600px;margin:auto;">
+
+        <form id="courseForm"
+              style="
+                background:white;
+                padding:35px;
+                border-radius:10px;
+                box-shadow:0 10px 30px rgba(0,0,0,0.08);
+              ">
+
+            <!-- NAME -->
+            <div style="margin-bottom:18px;">
+                <label>Full Name</label>
+                <input type="text" id="name" required
+                       placeholder="Enter your name"
+                       style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:6px;">
+            </div>
+
+            <!-- PHONE -->
+            <div style="margin-bottom:18px;">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" required
+                       placeholder="Enter phone number"
+                       style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:6px;">
+            </div>
+
+            <!-- EMAIL -->
+            <div style="margin-bottom:18px;">
+                <label>Email</label>
+                <input type="email" id="email" required
+                       placeholder="Enter email address"
+                       style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:6px;">
+            </div>
+
+            <!-- CITY -->
+            <div style="margin-bottom:22px;">
+                <label>City</label>
+                <input type="text" id="city" required
+                       placeholder="Enter your city"
+                       style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:6px;">
+            </div>
+
+            <!-- SUBMIT -->
+            <button type="submit" class="btn primary" style="width:100%;">
+                Submit & Book Seat
+            </button>
+
+            <p id="formStatus"
+               style="margin-top:15px;font-size:14px;color:green;display:none;">
+                Your details have been sent successfully!
+            </p>
+
+        </form>
+
+    </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer class="footer">
+    <div class="footer-grid">
+
+        <div>
+            <h3>GSM HJ</h3>
+            <p>
+                PHONE FIX ZONE<br>
+                Shop No.3, Shri Shyam Complex<br>
+                Bus Stand, Mahendragarh
+            </p>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>Phone: 8221820078</p>
+            <p>Email: phonefixzonemgrh@gmail.com</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="tools.html">Tools</a><br>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 GSM HJ. All Rights Reserved.
+    </div>
+</footer>
+
+<!-- =========================================================
+     COURSE FORM SCRIPT
+========================================================= -->
+<script>
+(function(){
+    emailjs.init("YOUR_PUBLIC_KEY"); // 🔴 Replace
+
+    const form = document.getElementById("courseForm");
+    const status = document.getElementById("formStatus");
+
+    form.addEventListener("submit", function(e){
+        e.preventDefault();
+
+        const params = {
+            name: document.getElementById("name").value,
+            phone: document.getElementById("phone").value,
+            email: document.getElementById("email").value,
+            city: document.getElementById("city").value,
+            course: "Mobile Software Training GSM HJ"
+        };
+
+        emailjs.send(
+            "YOUR_SERVICE_ID",   // 🔴 Replace
+            "YOUR_TEMPLATE_ID",  // 🔴 Replace
+            params
+        ).then(() => {
+            status.style.display = "block";
+            form.reset();
+        }, () => {
+            alert("Failed to send. Please try again.");
+        });
+    });
+})();
+</script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
